@@ -6,6 +6,7 @@
 
 ### AIM:
 To implement ARMA model in python.
+
 ### ALGORITHM:
 1. Import necessary libraries.
 2. Set up matplotlib settings for figure size.
@@ -23,6 +24,7 @@ axis limits.
 
 6. Display the autocorrelation and partial autocorrelation plots for the ARMA(2,2) process using
 plot_acf and plot_pacf.
+
 ### PROGRAM:
 ```
 from pandas import read_csv
@@ -61,7 +63,7 @@ plt.show()
 plot_acf(ARMA_2)
 plot_pacf(ARMA_2)
 ```
-OUTPUT:
+### OUTPUT:
 ![image](https://github.com/manojvenaram/TSA_EXP4/assets/94165064/1915dec6-810e-443b-a8d2-edf04d90ef0f)
 ![image](https://github.com/manojvenaram/TSA_EXP4/assets/94165064/529de11f-a6e6-4c33-93c7-5e588fe2ce08)
 ![image](https://github.com/manojvenaram/TSA_EXP4/assets/94165064/feee07f2-112d-425a-896d-894f23407c44)
@@ -69,5 +71,5 @@ OUTPUT:
 ![image](https://github.com/manojvenaram/TSA_EXP4/assets/94165064/10e02684-4e92-4f37-8b55-c636ec5c91b0)
 
 
-RESULT:
+### RESULT:
 Thus, a python program is created to fir ARMA Model successfully.
